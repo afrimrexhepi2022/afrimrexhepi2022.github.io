@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-window {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    .parallax-window {
+        background-attachment: scroll;
+    }
+}
+
+.tm-page-content-width {
+    max-width: 100%;
+    margin: auto;
+}
